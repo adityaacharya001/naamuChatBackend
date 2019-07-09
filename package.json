@@ -4,7 +4,8 @@
   "description": "socket.io based webrtc chatting backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/adityaacharya001/naamuChatBackend/issues"
   },
-  "homepage": "https://github.com/adityaacharya001/naamuChatBackend#readme"
+  "homepage": "https://github.com/adityaacharya001/naamuChatBackend#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "socket.io": "^2.2.0"
+  }
 }
