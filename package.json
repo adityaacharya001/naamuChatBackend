@@ -1,0 +1,26 @@
+{
+  "name": "naamuchatbackend",
+  "version": "1.0.0",
+  "description": "socket.io based webrtc chatting backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaacharya001/naamuChatBackend.git"
+  },
+  "keywords": [
+    "socket.io",
+    "express",
+    "node",
+    "JS",
+    "Webrtc"
+  ],
+  "author": "Aditya Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityaacharya001/naamuChatBackend/issues"
+  },
+  "homepage": "https://github.com/adityaacharya001/naamuChatBackend#readme"
+}
